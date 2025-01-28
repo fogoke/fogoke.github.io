@@ -1,0 +1,106 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Odinakachukwu Francis Ogoke
+    - name: Email
+      value: oogoke@mit.edu
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=wtuGC_wAAAAJ&hl=en&oi=ao
+    # - name: Languages
+    #   value: English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D., Mechanical Engineering
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: Awarded September 2024
+      description:
+        - Honors: CMU College of Engineering Presidential Fellowship (2024), GEM Associate Fellowship (2019)
+        - Thesis: Deep Learning for Characterization and Control of Laser Powder Bed Fusion
+        - Advisor: Amir Barati Farimani
+    - title: B.S.E., Chemical and Biological Engineering
+      institution: Princeton University, Princeton, NJ
+      year: Awarded June 2019
+      description:
+        - Minor: Computer Science
+        - Honors: High Meadows Environmental Institute Internship Grant (2017, 2018)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Associate
+      institution: Massachusetts Institute of Technology, Cambridge, MA
+      year: September 2024 - Present
+      description:
+        - Advisors: Faez Ahmed, John Hart
+    - title: Battery Product Development Intern
+      institution: Apple, Cupertino, CA
+      year: May 2023 - August 2023
+      description:
+        - Leveraged machine learning surrogate models for sheet metal forming FEA to enable early design predictions.
+        - Developed workflows for new geometry predictions, improving performance and reducing storage requirements.
+    - title: Research Intern
+      institution: Princeton University, Princeton, NJ
+      year: Multiple Internships (2017-2019)
+      description:
+        - Investigated splash dynamics of raindrops on oil slicks using computational fluid dynamics.
+        - Conducted bubble motion experiments under turbulence and analyzed data with particle tracking.
+
+- title: Ph.D. Research
+  type: nested_list
+  contents:
+    - title: Multi-Modal Process Monitoring for Laser Powder Bed Fusion
+      items:
+        - Developed deep learning frameworks for sensor-based defect detection.
+    - title: High Fidelity Melt Pool Models in Additive Manufacturing
+      items:
+        - Created generative models linking low- and high-fidelity simulations.
+    - title: Thermal Control of Laser Powder Bed Fusion
+      items:
+        - Designed deep reinforcement learning frameworks for process control.
+
+- title: Publications
+  type: list
+  contents:
+    - Ogoke, O.F., Suresh, S., Adamczyk, J., et al., "Generative Super-Resolution for In-Situ Layerwise Optical Imaging," Under Review, 2024.
+    - Ogoke, F., Pak, P., Myers, A., et al., "Deep Learning for Melt Pool Depth Contour Prediction," Additive Manufacturing Letters, In Press.
+    - Full list available upon request.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Carnegie Mellon University Presidential Fellowship
+    - year: 2022
+      items:
+        - Meta Uniting Scholars in Research Participant
+    - year: 2019
+      items:
+        - GEM Consortium Associate Fellowship
+
+- title: Teaching Experience
+  type: list
+  contents:
+    - Head Teaching Assistant, Carnegie Mellon University, Machine Learning and AI for Engineers (Fall 2021, 2022).
+
+- title: Skills
+  type: map
+  contents:
+    - Programming Languages: Python, Java, PySpark, R, C
+    - Applications: MATLAB, SolidWorks, AWS, ANSYS
+    - Machine Learning: Generative Models, Reinforcement Learning, Computer Vision
+
+- title: Leadership and Service
+  type: nested_list
+  contents:
+    - title: Princeton University Biological Sciences Society
+      items:
+        - Role: President (2018-2019)
+        - Coordinated speaker panels and mentorship programs.
+    - title: National Society of Black Engineers, Princeton Chapter
+      items:
+        - Role: Mentor (2017-2019)
+        - Guided undergraduates in academic and career development.

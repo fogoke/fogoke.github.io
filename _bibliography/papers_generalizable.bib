@@ -1,0 +1,60 @@
+
+
+@article{ogoke2024deepa,
+  title={Deep learning for melt pool depth contour prediction from surface thermal images via vision transformers},
+  author={Ogoke, Francis and Pak, Peter and Myers, Alexander and Quirarte, Guadalupe and Beuth, Jack and Malen, Jonathan and Barati Farimani, Amir},
+  journal={Additive Manufacturing Letters},
+  volume={11},
+  bibtex_show={true},
+  preview={melt_pool_edp/melt_pool_edp.png},
+  html={https://www.sciencedirect.com/science/article/pii/S2772369024000513},
+  abstract={Anomalous melt pools during metal additive manufacturing (AM) can lead to deteriorated mechanical and fatigue performance. In-situ monitoring of the melt pool subsurface morphology requires specialized equipment that may not be readily accessible or scalable. Therefore, we introduce a machine learning framework to correlate in-situ two-color thermal images observed via high-speed color imaging to the two-dimensional profile of the melt pool cross-section. We employ a hybrid CNN-Transformer architecture to establish a correlation between single bead off-axis thermal image sequences and melt pool cross-section contours measured via optical microscopy. Specifically, a ResNet model embeds the spatial information contained within the thermal images to a latent vector, while a Transformer model correlates the sequence of embedded vectors to extract temporal information. The performance of this model is evaluated through dimensional and geometric comparisons to the corresponding experimental no-powder melt pool observations. Our framework is able to model the curvature of the subsurface melt pool structure, with improved performance in high energy density regimes compared to analytical models. Additionally, the use of ratiometric temperature estimates improves the accuracy of the model predictions compared to monochromatic imaging. This work establishes a framework extensible towards powder-based AM builds.},
+  pages={100243},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{pak2024thermopore,
+  title={ThermoPore: Predicting part porosity based on thermal images using deep learning},
+  author={Pak, Peter and Ogoke, Francis and Polonsky, Andrew and Garland, Anthony and Bolintineanu, Dan S and Moser, Dan R and Arnhart, Mary and Madison, Jonathan and Ivanoff, Thomas and Mitchell, John and Jared, Bradley and Salzbrenner, Brad and Heiden, Michael J and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  volume={95},
+  bibtex_show={true},
+  abstract={Part qualification is often a critical and labor-intensive process in additive manufacturing, particularly in the detection of defects such as porosity, which stands to benefit significantly from advancements in machine learning. We present a deep learning approach for quantifying and localizing ex-situ porosity within Laser Powder Bed Fusion fabricated samples utilizing in-situ thermal image monitoring data. Our goal is to build the real time porosity map of parts based on thermal images acquired during the build. The quantification task builds upon the established Convolutional Neural Network model architecture to predict pore count and the localization task leverages the spatial and temporal attention mechanisms of the novel Video Vision Transformer model to indicate areas of expected porosity. Our model for porosity quantification achieved a $R^2$ score of 0.57 and our model for porosity localization produced an average Intersection over Union (IoU) score of 0.32 and a maximum of 1.0. This work is setting the foundations of part porosity “Digital Twins” based on additive manufacturing monitoring data and can be applied downstream to reduce time-intensive post-inspection and testing activities during part qualification and certification. In addition, we seek to accelerate the acquisition of crucial insights normally only available through ex-situ part evaluation by means of machine learning analysis of in-situ process monitoring data.},
+  preview={thermopore/thermopore_highlight.png},
+  html={https://www.sciencedirect.com/science/article/pii/S2214860424005499},
+  pages={104503},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{chandrasekhar2024amgpt,
+title = {AMGPT: A large language model for contextual querying in additive manufacturing},
+journal = {Additive Manufacturing Letters},
+volume = {11},
+pages = {100232},
+year = {2024},
+issn = {2772-3690},
+bibtex_show = {true},
+preview={amgpt/amgpt_preview.png},
+html = {https://www.sciencedirect.com/science/article/pii/S2772369024000409?via%3Dihub},
+url = {https://www.sciencedirect.com/science/article/pii/S2772369024000409},
+author = {Achuth Chandrasekhar and Jonathan Chan and Francis Ogoke and Olabode Ajenifujah and Amir {Barati Farimani}},
+keywords = {Large language models, Retrieval-augmented generation, Machine learning, Contextual querying, Laser powder bed fusion},
+abstract = {Generalized large language models (LLMs) such as GPT-4 may not provide specific answers to queries formulated by materials science researchers. These models may produce a high-level outline but lack the capacity to return detailed instructions on manufacturing and material properties of novel alloys. We introduce “AMGPT”, a specialized LLM text generator designed for metal AM queries. The goal of AMGPT is to assist researchers and users in navigating a curated corpus of literature. Instead of training from scratch, we employ a pre-trained Llama2-7B model from Hugging Face in a Retrieval-Augmented Generation (RAG) setup, utilizing it to dynamically incorporate information from ∼50 AM papers and textbooks in PDF format. Mathpix is used to convert these PDF documents into TeX format, facilitating their integration into the RAG pipeline managed by LlamaIndex. A query retrieval function has also been added, enabling the system to fetch relevant literature from Elsevier journals based on the context of the query. Expert evaluations of this project highlight that specific embeddings from the RAG setup accelerate response times and maintain coherence in the generated text.}
+}
+
+
+@article{akbari2022meltpoolnet,
+  title={MeltpoolNet: Melt pool characteristic prediction in Metal Additive Manufacturing using machine learning},
+  author={Akbari, Parand and Ogoke, Francis and Kao, Ning-Yu and Meidani, Kazem and Yeh, Chun-Yu and Lee, William and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  volume={55},
+  pages={102817},
+  year={2022},
+  preview={meltpool_net/meltpoolnet_preview.png},
+  publisher={Elsevier},
+  abstract={Characterizing melt pool shape and geometry is essential in Metal Additive Manufacturing (MAM) to control the printing process, and avoid defects. Predicting melt pool flaws based on process parameters and powder material is difficult due to the complex nature of MAM processes. Machine learning (ML) techniques can be useful in connecting process parameters to the type of flaws in the melt pool. In this work, we introduced a comprehensive framework for benchmarking ML for melt pool characterization. An extensive experimental dataset has been collected from more than 80 MAM articles containing MAM processing conditions, materials, melt pool dimensions, melt pool modes and flaw types. We introduced physics-aware MAM featurization, versatile ML models, and evaluation metrics to create a comprehensive learning framework for melt pool defect and geometry prediction. This benchmark can serve as a basis for melt pool control and process optimization. In addition, data-driven explicit models have been identified to estimate melt pool geometry from process parameters and material properties. These models have been shown to outperform Rosenthal estimation for melt pool geometry while maintaining interpretability.},
+    bibtex_show={true},
+    html={https://www.sciencedirect.com/science/article/pii/S2214860422002172},
+}

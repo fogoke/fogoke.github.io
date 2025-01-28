@@ -1,0 +1,191 @@
+
+@article{ogoke2021graph,
+  title={Graph convolutional networks applied to unstructured flow field data},
+  author={Ogoke, Francis and Meidani, Kazem and Hashemi, Amirreza and Barati Farimani, Amir},
+  journal={Machine Learning: Science and Technology},
+  abstract={Many scientific and engineering processes produce spatially unstructured data. However, most data-driven models require a feature matrix that enforces both a set number and order of features for each sample. They thus cannot be easily constructed for an unstructured dataset. Therefore, a graph based data-driven model to perform inference on fields defined on an unstructured mesh, using a graph convolutional neural network (GCNN) is presented. The ability of the method to predict global properties from spatially irregular measurements with high accuracy is demonstrated by predicting the drag force associated with laminar flow around airfoils from scattered velocity measurements. The network can infer from field samples at different resolutions, and is invariant to the order in which the measurements within each sample are presented. The GCNN method, using inductive convolutional layers and adaptive pooling, is able to predict this quantity with a validation $R^2$ above 0.98, and a Normalized Mean Squared Error below 0.01, without relying on spatial structure.},
+  volume={2},
+  number={4},
+  pages={045020},
+  preview={unstructured_flow/figure_1.png},
+  html={https://iopscience.iop.org/article/10.1088/2632-2153/ac1fc9},
+  bibtex_show={True},
+  keywords = {multiscale},
+  year={2021},
+  publisher={IOP Publishing}
+}
+
+@article{ogoke2021thermal,
+  title={Thermal control of laser powder bed fusion using deep reinforcement learning},
+  author={Ogoke, Francis and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  volume={46},
+  bibtex_show={true},
+  abstract={Powder-based additive manufacturing techniques provide tools to construct intricate structures that are difficult to manufacture using conventional methods. In Laser Powder Bed Fusion, components are iteratively built by selectively melting specific areas of the powder bed to form the two-dimensional cross section of the specific part. However, the high occurrence of defects impact the adoption of this method for precision applications. Therefore, a control policy for dynamically altering process parameters to avoid phenomena that lead to defect occurrences is necessary. A Deep Reinforcement Learning (DRL) framework that derives a versatile control strategy for minimizing the likelihood of these defects is presented. The generated control policy alters either the velocity or power of the laser during the melting process to ensure the consistency of the melt pool and reduce overheating in the generated product. The control policy is trained and validated on efficient simulations of the continuum temperature distribution of the powder bed layer under various laser trajectories.},
+  pages={102033},
+  preview={thermal_control/thermal_control.gif},
+  html={https://www.sciencedirect.com/science/article/pii/S2214860421001986},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{akbari2022meltpoolnet,
+  title={MeltpoolNet: Melt pool characteristic prediction in Metal Additive Manufacturing using machine learning},
+  author={Akbari, Parand and Ogoke, Francis and Kao, Ning-Yu and Meidani, Kazem and Yeh, Chun-Yu and Lee, William and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  volume={55},
+  pages={102817},
+  year={2022},
+  preview={meltpool_net/meltpoolnet_preview.png},
+  publisher={Elsevier},
+  abstract={Characterizing melt pool shape and geometry is essential in Metal Additive Manufacturing (MAM) to control the printing process, and avoid defects. Predicting melt pool flaws based on process parameters and powder material is difficult due to the complex nature of MAM processes. Machine learning (ML) techniques can be useful in connecting process parameters to the type of flaws in the melt pool. In this work, we introduced a comprehensive framework for benchmarking ML for melt pool characterization. An extensive experimental dataset has been collected from more than 80 MAM articles containing MAM processing conditions, materials, melt pool dimensions, melt pool modes and flaw types. We introduced physics-aware MAM featurization, versatile ML models, and evaluation metrics to create a comprehensive learning framework for melt pool defect and geometry prediction. This benchmark can serve as a basis for melt pool control and process optimization. In addition, data-driven explicit models have been identified to estimate melt pool geometry from process parameters and material properties. These models have been shown to outperform Rosenthal estimation for melt pool geometry while maintaining interpretability.},
+    bibtex_show={true},
+    html={https://www.sciencedirect.com/science/article/pii/S2214860422002172},
+}
+
+@article{hemmasian2023surrogate,
+  title={Surrogate modeling of melt pool temperature field using deep learning},
+  bibtex_show={true},
+  author={Hemmasian, AmirPouya and Ogoke, Francis and Akbari, Parand and Malen, Jonathan and Beuth, Jack and Barati Farimani, Amir},
+  journal={Additive Manufacturing Letters},
+  url={https://doi.org/10.1016/j.addma.2023.100123},
+  preview={mp_surrogate/preview_image.png},
+  abstract={Powder-based additive manufacturing has transformed the manufacturing industry over the last decade. In the Laser Powder Bed Fusion (L-PBF) process, a specific part is built in an iterative manner in which two-dimensional cross-sections are formed on top of each other by selectively melting and fusing the desired areas of the powder bed. In this process, the temperature field and melt pool morphology play a major role in the quality of the manufactured part and its possible defects. Therefore, predicting these factors is of high importance. However, simulating such a complex phenomenon is usually very time-consuming and requires huge computational resources. In this work, we create three datasets consisting of single-trail L-PBF processes using the Flow-3D simulation software and use them to train a convolutional neural network capable of predicting the three-dimensional temperature field solely by taking the process parameters and the time step as input. The CNN achieves a relative Root Mean Squared Error less of than 5% for the temperature field in the solidifying region and an average Intersection over Union score of 80% to 90% in predicting the three-dimensional geometry of the melt pool. Moreover, since time is included as one of the inputs of the model, the temperature field can be obtained in a matter of a few seconds for any arbitrary time step without the need to iterate and compute all the steps.},
+  html={https://www.sciencedirect.com/science/article/pii/S277236902300004X},
+  volume={5},
+  pages={100123},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{myers2023high,
+  title={High-resolution melt pool thermal imaging for metals additive manufacturing using the two-color method with a color camera},
+  author={Myers, Alexander J and Quirarte, Guadalupe and Ogoke, Francis and Lane, Brandon M and Uddin, Syed Zia and Barati Farimani, Amir and Beuth, Jack L and Malen, Jonathan A},
+  journal={Additive Manufacturing},
+  bibtex_show={true},
+  abstract={We introduce an experimental method to image melt pool temperature with a single commercial color camera and compare the results with multi-physics computational fluid dynamic (CFD) models. This approach leverages the principle of two-color (i.e., ratiometric) thermal imaging, which is advantageous because it negates the need for a priori knowledge of melt pool emissivity, plume transmissivity, and the camera’s view factor. The color camera’s ability to accurately measure temperature was validated with a National Institute of Standards and Technology (NIST) blackbody source and tungsten filament lamp between temperatures of 1600 K and 2800 K. To demonstrate the technique, an off-axis high-speed color camera operating at 22 500 frames per second capturing a 2.8 mm  2.8 mm area on the build plate was used to image both no-powder and powder single beads on a commercial laser powder bed fusion machine. Melt pool temperature fields for 316L stainless steel at varying processing conditions show peaks between 3300 K and 3700 K depending on the laser power and increased variability in the presence of powder. Measurements of nickel superalloy 718 and Ti-6Al-4V show comparable temperatures, with increased plume obstruction, especially in Ti-6Al-4V due to vaporization of aluminum. Multi-physics CFD models are used to simulate metal melt pools but some parameters such as the accommodation and Fresnel coefficients are not well characterized. Fitting a FLOW-3D® CFD model to ex-situ measurements of the melt pool cross-sectional geometry for 316L stainless steel identifies multiple combinations of Fresnel coefficient and accommodation coefficient that lead to geometric agreement. Only two of these combinations show agreement with the thermal images, motivating the need for thermal imaging as a means to advance validation of complex physics models. Our methodology can be applied to any color camera to better monitor and understand melt pools that yield high-quality parts.},
+  html={https://www.sciencedirect.com/science/article/pii/S2214860423002762},
+  volume={73},
+  preview={high_speed_imaging/high_speed_2.png},
+  pages={103663},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{ogoke2023convolutional,
+  title={Convolutional neural networks for melt depth prediction and visualization in laser powder bed fusion},
+  author={Ogoke, Francis and Lee, William and Kao, Ning-Yu and Myers, Alexander and Beuth, Jack and Malen, Jonathan and Barati Farimani, Amir},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={129},
+  number={7},
+  pages={3047--3062},
+  bibtex_show={true},
+  preview={mp_cnn/preview_image_pt_2.gif},
+  abstract={Powder bed fusion is a method of additive manufacturing (AM) where parts are constructed by iteratively melting metal cross-sections to build complex 3D structures. Defects often form during the printing process, where the dynamics of the melt pool can directly contribute to the formation of porous defects in the final part. For instance, insufficient overlap of the produced melt pools can result in unmelted regions of powder, while deep, unstable vapor depression cavities can lead to spherical voids becoming trapped in the substrate. Therefore, in situ of monitoring the melt pool during the melting process can telegraph the formation of defects and assist the creation of fully dense parts. Here, we augment data-driven-based monitoring techniques to enable the 3D visualization of the melt pool underneath the surface, based on the melt pool surface temperature and processing parameters. Specifically, a convolutional neural network (CNN) predicts the topography of the melt pool and keyhole cavity, based on the surface temperature data near the laser focal point and the nominal operating conditions. The data for the laser powder bed fusion process used to train the model is produced by full-field simulations of the meso-scale melting process, with the CFD software FLOW-3D. Data augmentation techniques are implemented to ensure generalizable performance in cases where the temperature data may be obscured and to ensure sharp, accurate predictions of the melt pool boundaries.},
+  year={2023},
+  publisher={Springer London London},
+  html={https://link.springer.com/article/10.1007/s00170-023-12384-z}
+}
+
+@article{ogoke2024inexpensive,
+  title={Inexpensive high fidelity melt pool models in additive manufacturing using generative deep diffusion},
+  author={Ogoke, Francis and Liu, Quanliang and Ajenifujah, Olabode and Myers, Alexander and Quirarte, Guadalupe and Malen, Jonathan and Beuth, Jack and Barati Farimani, Amir},
+  journal={Materials \& Design},
+  bibtex_show={True},
+  url={https://doi.org/10.1016/j.matdes.2024.113181},
+  html={https://www.sciencedirect.com/science/article/pii/S0264127524005562},
+  abstract={Defects in Laser Powder Bed Fusion (L-PBF) parts often result from the meso-scale dynamics of the molten alloy near the laser, known as the melt pool. Experimental in-situ monitoring of the three-dimensional melt pool physical fields is challenging, due to the short length and time scales involved in the process. Multi-physics simulation methods can describe the three-dimensional dynamics of the melt pool, but are computationally expensive at the mesh refinement required for accurate predictions of complex effects. Therefore, we develop a generative deep learning model based on the probabilistic diffusion framework to map low-fidelity simulation information to the high-fidelity counterpart. By doing so, we bypass the computational expense of conducting multiple high-fidelity simulations for analysis by upscaling lightweight coarse mesh simulations. We demonstrate the preservation of key metrics of the melting process between the ground truth simulation data and the diffusion model output, such as the temperature field, the melt pool dimensions and the variability of the keyhole vapor cavity. We predict the melt pool depth within 3 μm based on low-fidelity input data 4× coarser than the high-fidelity simulations, reducing analysis time by two orders of magnitude.},
+  volume={245},
+  pages={113181},
+  preview={super_resolution/preview_image.png},
+  year={2024},
+  selected={true},
+  publisher={Elsevier}
+}
+
+@article{li2025latent,
+  title={Latent Neural PDE Solver: a reduced-order modelling framework for partial differential equations},
+  author={Li, Zijie and Patil, Saurabh and Ogoke, Francis and Shu, Dule and Zhen, Wilson and Schneier, Michael and Buchanan Jr, John R and Barati Farimani, Amir},
+  journal={Journal of Computational Physics},
+  pages={113705},
+  year={2025},
+  bibtex_show={true},
+  preview={latent_pde/preview_image.png},
+  abstract={Neural networks have shown promising potential in accelerating the numerical simulation of systems governed by partial differential equations (PDEs). Different from many existing neural network surrogates operating on high-dimensional discretized fields, we propose to learn the dynamics of the system in the latent space with much coarser discretizations. In our proposed framework - Latent Neural PDE Solver (LNS), a non-linear autoencoder is first trained to project the full-order representation of the system onto the mesh-reduced space, then a temporal model is trained to predict the future state in this mesh-reduced space. This reduction process simplifies the training of the temporal model by greatly reducing the computational cost accompanying a fine discretization and enables more efficient backprop-through-time training. We study the capability of the proposed framework and several other popular neural PDE solvers on various types of systems including single-phase and multi-phase flows along with varying system parameters. We showcase that it has competitive accuracy and efficiency compared to the neural PDE solver that operates on full-order space.},
+  html={https://www.sciencedirect.com/science/article/pii/S0021999124009537},
+  publisher={Academic Press}
+}
+
+@article{pak2024thermopore,
+  title={ThermoPore: Predicting part porosity based on thermal images using deep learning},
+  author={Pak, Peter and Ogoke, Francis and Polonsky, Andrew and Garland, Anthony and Bolintineanu, Dan S and Moser, Dan R and Arnhart, Mary and Madison, Jonathan and Ivanoff, Thomas and Mitchell, John and Jared, Bradley and Salzbrenner, Brad and Heiden, Michael J and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  volume={95},
+  bibtex_show={true},
+  abstract={Part qualification is often a critical and labor-intensive process in additive manufacturing, particularly in the detection of defects such as porosity, which stands to benefit significantly from advancements in machine learning. We present a deep learning approach for quantifying and localizing ex-situ porosity within Laser Powder Bed Fusion fabricated samples utilizing in-situ thermal image monitoring data. Our goal is to build the real time porosity map of parts based on thermal images acquired during the build. The quantification task builds upon the established Convolutional Neural Network model architecture to predict pore count and the localization task leverages the spatial and temporal attention mechanisms of the novel Video Vision Transformer model to indicate areas of expected porosity. Our model for porosity quantification achieved a $R^2$ score of 0.57 and our model for porosity localization produced an average Intersection over Union (IoU) score of 0.32 and a maximum of 1.0. This work is setting the foundations of part porosity “Digital Twins” based on additive manufacturing monitoring data and can be applied downstream to reduce time-intensive post-inspection and testing activities during part qualification and certification. In addition, we seek to accelerate the acquisition of crucial insights normally only available through ex-situ part evaluation by means of machine learning analysis of in-situ process monitoring data.},
+  preview={thermopore/thermopore_highlight.png},
+  html={https://www.sciencedirect.com/science/article/pii/S2214860424005499},
+  pages={104503},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{ogoke2024deepa,
+  title={Deep learning for melt pool depth contour prediction from surface thermal images via vision transformers},
+  author={Ogoke, Francis and Pak, Peter and Myers, Alexander and Quirarte, Guadalupe and Beuth, Jack and Malen, Jonathan and Barati Farimani, Amir},
+  journal={Additive Manufacturing Letters},
+  volume={11},
+  bibtex_show={true},
+  preview={melt_pool_edp/melt_pool_edp.png},
+  html={https://www.sciencedirect.com/science/article/pii/S2772369024000513},
+  abstract={Anomalous melt pools during metal additive manufacturing (AM) can lead to deteriorated mechanical and fatigue performance. In-situ monitoring of the melt pool subsurface morphology requires specialized equipment that may not be readily accessible or scalable. Therefore, we introduce a machine learning framework to correlate in-situ two-color thermal images observed via high-speed color imaging to the two-dimensional profile of the melt pool cross-section. We employ a hybrid CNN-Transformer architecture to establish a correlation between single bead off-axis thermal image sequences and melt pool cross-section contours measured via optical microscopy. Specifically, a ResNet model embeds the spatial information contained within the thermal images to a latent vector, while a Transformer model correlates the sequence of embedded vectors to extract temporal information. The performance of this model is evaluated through dimensional and geometric comparisons to the corresponding experimental no-powder melt pool observations. Our framework is able to model the curvature of the subsurface melt pool structure, with improved performance in high energy density regimes compared to analytical models. Additionally, the use of ratiometric temperature estimates improves the accuracy of the model predictions compared to monochromatic imaging. This work establishes a framework extensible towards powder-based AM builds.},
+  pages={100243},
+  selected={true},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{chandrasekhar2024amgpt,
+title = {AMGPT: A large language model for contextual querying in additive manufacturing},
+journal = {Additive Manufacturing Letters},
+volume = {11},
+pages = {100232},
+year = {2024},
+issn = {2772-3690},
+bibtex_show = {true},
+preview={amgpt/amgpt_preview.png},
+html = {https://www.sciencedirect.com/science/article/pii/S2772369024000409?via%3Dihub},
+url = {https://www.sciencedirect.com/science/article/pii/S2772369024000409},
+author = {Achuth Chandrasekhar and Jonathan Chan and Francis Ogoke and Olabode Ajenifujah and Amir {Barati Farimani}},
+keywords = {Large language models, Retrieval-augmented generation, Machine learning, Contextual querying, Laser powder bed fusion},
+abstract = {Generalized large language models (LLMs) such as GPT-4 may not provide specific answers to queries formulated by materials science researchers. These models may produce a high-level outline but lack the capacity to return detailed instructions on manufacturing and material properties of novel alloys. We introduce “AMGPT”, a specialized LLM text generator designed for metal AM queries. The goal of AMGPT is to assist researchers and users in navigating a curated corpus of literature. Instead of training from scratch, we employ a pre-trained Llama2-7B model from Hugging Face in a Retrieval-Augmented Generation (RAG) setup, utilizing it to dynamically incorporate information from ∼50 AM papers and textbooks in PDF format. Mathpix is used to convert these PDF documents into TeX format, facilitating their integration into the RAG pipeline managed by LlamaIndex. A query retrieval function has also been added, enabling the system to fetch relevant literature from Elsevier journals based on the context of the query. Expert evaluations of this project highlight that specific embeddings from the RAG setup accelerate response times and maintain coherence in the generated text.}
+}
+
+@article{ogoke2024deepb,
+  title={Deep Learning based Optical Image Super-Resolution via Generative Diffusion Models for Layerwise in-situ LPBF Monitoring},
+  author={Ogoke, Francis and Suresh, Sumesh Kalambettu and Adamczyk, Jesse and Bolintineanu, Dan and Garland, Anthony and Heiden, Michael and Barati Farimani, Amir},
+  journal={arXiv preprint arXiv:2409.13171},
+  preview={experimental_insitu/preview.png},
+  arxiv={2409.13171},
+  bibtex_show={true},
+  abbr={Under Review},
+  selected={true},
+  abstract={The stochastic formation of defects during Laser Powder Bed Fusion (L-PBF) negatively impacts its adoption for high-precision use cases. Optical monitoring techniques can be used to identify defects based on layer-wise imaging, but these methods are difficult to scale to high resolutions due to cost and memory constraints. Therefore, we implement generative deep learning models to link low-cost, low-resolution images of the build plate to detailed high-resolution optical images of the build plate, enabling cost-efficient process monitoring. To do so, a conditional latent probabilistic diffusion model is trained to produce realistic high-resolution images of the build plate from low-resolution webcam images, recovering the distribution of small-scale features and surface roughness. We first evaluate the performance of the model by analyzing the reconstruction quality of the generated images using peak-signal-to-noise-ratio (PSNR), structural similarity index measure (SSIM) and wavelet covariance metrics that describe the preservation of high-frequency information. Additionally, we design a framework based upon the Segment Anything foundation model to recreate the 3D morphology of the printed part and analyze the surface roughness of the reconstructed samples. Finally, we explore the zero-shot generalization capabilities of the implemented framework to other part geometries by creating synthetic low-resolution data.},
+  year={2024}
+}
+
+@article{ogoke2022deep,
+  title={Deep-learned generators of porosity distributions produced during metal Additive Manufacturing},
+  author={Ogoke, Francis and Johnson, Kyle and Glinsky, Michael and Laursen, Chris and Kramer, Sharlotte and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  abstract={Laser Powder Bed Fusion has become a widely adopted method for metal Additive Manufacturing (AM) due to its ability to mass produce complex parts with increased local control. However, AM produced parts can be subject to undesirable porosity, negatively influencing the properties of printed components. Thus, controlling porosity is integral for creating effective parts. A precise understanding of the porosity distribution is crucial for accurately simulating potential fatigue and failure zones. Previous research on generating synthetic porous microstructures have succeeded in generating parts with high density, isotropic porosity distributions but are often inapplicable to cases with sparser, boundary-dependent pore distributions. Our work bridges this gap by providing a method that considers these constraints by deconstructing the generation problem into its constitutive parts. A framework is introduced that combines Generative Adversarial Networks with Mallat Scattering Transform-based autocorrelation methods to construct novel realizations of the individual pore geometries and surface roughness, then stochastically reconstruct them to form realizations of a porous printed part. The generated parts are compared to the existing experimental porosity distributions based on statistical and dimensional metrics, such as nearest neighbor distances, pore volumes, pore anisotropies and scattering transform based auto-correlations.},
+  url = {https://doi.org/10.1016/j.addma.2022.103250},
+  html = {https://www.sciencedirect.com/science/article/pii/S221486042200639X},
+  preview={deep_learned_generators/preview_image.png},
+  bibtex_show={true},
+  volume={60},
+  pages={103250},
+  year={2022},
+  selected={true},
+  publisher={Elsevier}
+}

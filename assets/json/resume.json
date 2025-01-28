@@ -1,0 +1,197 @@
+{
+    "basics": {
+      "name": "Odinakachukwu Francis Ogoke",
+      "label": "Postdoctoral Associate",
+      "image": "",
+      "email": "Available upon request",
+      "phone": "N/A",
+      "url": "",
+      "summary": "Researcher specializing in deep learning for additive manufacturing characterization and control, focusing on generative modeling, reinforcement learning, and computer vision.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Cambridge",
+        "countryCode": "US",
+        "region": "Massachusetts"
+      },
+      "profiles": [
+        {
+          "network": "Google Scholar",
+          "username": "Available upon request",
+          "url": ""
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Massachusetts Institute of Technology",
+        "position": "Postdoctoral Associate, Mechanical Engineering",
+        "url": "",
+        "startDate": "2024-09-01",
+        "endDate": "",
+        "summary": "Researching advanced machine learning techniques for additive manufacturing.",
+        "highlights": [
+          "Advised by Faez Ahmed and John Hart."
+        ]
+      },
+      {
+        "name": "Apple",
+        "position": "Battery Product Development Intern",
+        "url": "",
+        "startDate": "2023-05-01",
+        "endDate": "2023-08-01",
+        "summary": "Developed machine learning surrogate models for sheet metal forming finite element analysis (FEA).",
+        "highlights": [
+          "Improved generalization performance for new geometries.",
+          "Reduced storage and computation requirements."
+        ]
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "position": "Head Teaching Assistant",
+        "url": "",
+        "startDate": "2021-09-01",
+        "endDate": "2022-12-01",
+        "summary": "Led teaching team for a machine learning and AI course.",
+        "highlights": [
+          "Organized a team of 10 TAs for a course with 120 students.",
+          "Developed assignments and exams for machine learning concepts."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Carnegie Mellon University",
+        "location": "Pittsburgh, PA",
+        "url": "",
+        "area": "Mechanical Engineering",
+        "studyType": "Ph.D.",
+        "startDate": "2019-09-01",
+        "endDate": "2024-09-01",
+        "score": "",
+        "courses": [
+          "Deep Learning for Characterization and Control of Laser Powder Bed Fusion"
+        ]
+      },
+      {
+        "institution": "Princeton University",
+        "location": "Princeton, NJ",
+        "url": "",
+        "area": "Chemical and Biological Engineering",
+        "studyType": "B.S.E.",
+        "startDate": "2015-09-01",
+        "endDate": "2019-06-01",
+        "score": "",
+        "courses": [
+          "Minor: Computer Science"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "CMU College of Engineering Presidential Fellowship",
+        "date": "2024-01-01",
+        "awarder": "Carnegie Mellon University",
+        "url": "",
+        "summary": ""
+      },
+      {
+        "title": "GEM Associate Fellowship",
+        "date": "2019-01-01",
+        "awarder": "GEM Consortium",
+        "url": "",
+        "summary": ""
+      },
+      {
+        "title": "Meta Uniting Scholars in Research Participant",
+        "date": "2022-01-01",
+        "awarder": "Meta",
+        "url": "",
+        "summary": ""
+      }
+    ],
+    "publications": [
+      {
+        "name": "Generative Super-Resolution for In-Situ Layerwise Optical Imaging",
+        "publisher": "Under Review",
+        "releaseDate": "2024-01-01",
+        "url": "",
+        "summary": ""
+      },
+      {
+        "name": "Deep Learning for Melt Pool Depth Contour Prediction",
+        "publisher": "Additive Manufacturing Letters",
+        "releaseDate": "2024-01-01",
+        "url": "",
+        "summary": ""
+      },
+      {
+        "name": "Inexpensive High Fidelity Melt Pool Models in Additive Manufacturing Using Generative Deep Diffusion",
+        "publisher": "Materials & Design",
+        "releaseDate": "2024-01-01",
+        "url": "",
+        "summary": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming",
+        "level": "",
+        "icon": "",
+        "keywords": [
+          "Python",
+          "Java",
+          "PySpark",
+          "MATLAB",
+          "SolidWorks",
+          "AWS",
+          "C"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "level": "",
+        "icon": "",
+        "keywords": [
+          "Generative Models",
+          "Reinforcement Learning",
+          "Computer Vision"
+        ]
+      },
+      {
+        "name": "Applications",
+        "level": "",
+        "icon": "",
+        "keywords": [
+          "ANSYS",
+          "FEniCS",
+          "FLOW-3D"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent",
+        "icon": ""
+      }
+    ],
+    "interests": [
+      {
+        "name": "Machine Learning for Additive Manufacturing",
+        "icon": "",
+        "keywords": [
+          "Generative Models",
+          "Thermal Control",
+          "Defect Mitigation"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Available upon request",
+        "icon": "",
+        "reference": ""
+      }
+    ]
+  }

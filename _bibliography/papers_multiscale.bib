@@ -1,0 +1,30 @@
+
+@article{ogoke2024inexpensive,
+  title={Inexpensive high fidelity melt pool models in additive manufacturing using generative deep diffusion},
+  author={Ogoke, Francis and Liu, Quanliang and Ajenifujah, Olabode and Myers, Alexander and Quirarte, Guadalupe and Malen, Jonathan and Beuth, Jack and Barati Farimani, Amir},
+  journal={Materials \& Design},
+  bibtex_show={True},
+  url={https://doi.org/10.1016/j.matdes.2024.113181},
+  html={https://www.sciencedirect.com/science/article/pii/S0264127524005562},
+  abstract={Defects in Laser Powder Bed Fusion (L-PBF) parts often result from the meso-scale dynamics of the molten alloy near the laser, known as the melt pool. Experimental in-situ monitoring of the three-dimensional melt pool physical fields is challenging, due to the short length and time scales involved in the process. Multi-physics simulation methods can describe the three-dimensional dynamics of the melt pool, but are computationally expensive at the mesh refinement required for accurate predictions of complex effects. Therefore, we develop a generative deep learning model based on the probabilistic diffusion framework to map low-fidelity simulation information to the high-fidelity counterpart. By doing so, we bypass the computational expense of conducting multiple high-fidelity simulations for analysis by upscaling lightweight coarse mesh simulations. We demonstrate the preservation of key metrics of the melting process between the ground truth simulation data and the diffusion model output, such as the temperature field, the melt pool dimensions and the variability of the keyhole vapor cavity. We predict the melt pool depth within 3 μm based on low-fidelity input data 4× coarser than the high-fidelity simulations, reducing analysis time by two orders of magnitude.},
+  volume={245},
+  pages={113181},
+  preview={super_resolution/preview_image.png},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{ogoke2023convolutional,
+  title={Convolutional neural networks for melt depth prediction and visualization in laser powder bed fusion},
+  author={Ogoke, Francis and Lee, William and Kao, Ning-Yu and Myers, Alexander and Beuth, Jack and Malen, Jonathan and Barati Farimani, Amir},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={129},
+  number={7},
+  pages={3047--3062},
+  bibtex_show={true},
+  preview={mp_cnn/preview_image_pt_2.gif},
+  abstract={Powder bed fusion is a method of additive manufacturing (AM) where parts are constructed by iteratively melting metal cross-sections to build complex 3D structures. Defects often form during the printing process, where the dynamics of the melt pool can directly contribute to the formation of porous defects in the final part. For instance, insufficient overlap of the produced melt pools can result in unmelted regions of powder, while deep, unstable vapor depression cavities can lead to spherical voids becoming trapped in the substrate. Therefore, in situ of monitoring the melt pool during the melting process can telegraph the formation of defects and assist the creation of fully dense parts. Here, we augment data-driven-based monitoring techniques to enable the 3D visualization of the melt pool underneath the surface, based on the melt pool surface temperature and processing parameters. Specifically, a convolutional neural network (CNN) predicts the topography of the melt pool and keyhole cavity, based on the surface temperature data near the laser focal point and the nominal operating conditions. The data for the laser powder bed fusion process used to train the model is produced by full-field simulations of the meso-scale melting process, with the CFD software FLOW-3D. Data augmentation techniques are implemented to ensure generalizable performance in cases where the temperature data may be obscured and to ensure sharp, accurate predictions of the melt pool boundaries.},
+  year={2023},
+  publisher={Springer London London},
+  html={https://link.springer.com/article/10.1007/s00170-023-12384-z}
+}

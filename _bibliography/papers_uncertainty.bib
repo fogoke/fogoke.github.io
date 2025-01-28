@@ -1,0 +1,43 @@
+@article{ogoke2022deep,
+  title={Deep-learned generators of porosity distributions produced during metal Additive Manufacturing},
+  author={Ogoke, Francis and Johnson, Kyle and Glinsky, Michael and Laursen, Chris and Kramer, Sharlotte and Barati Farimani, Amir},
+  journal={Additive Manufacturing},
+  abstract={Laser Powder Bed Fusion has become a widely adopted method for metal Additive Manufacturing (AM) due to its ability to mass produce complex parts with increased local control. However, AM produced parts can be subject to undesirable porosity, negatively influencing the properties of printed components. Thus, controlling porosity is integral for creating effective parts. A precise understanding of the porosity distribution is crucial for accurately simulating potential fatigue and failure zones. Previous research on generating synthetic porous microstructures have succeeded in generating parts with high density, isotropic porosity distributions but are often inapplicable to cases with sparser, boundary-dependent pore distributions. Our work bridges this gap by providing a method that considers these constraints by deconstructing the generation problem into its constitutive parts. A framework is introduced that combines Generative Adversarial Networks with Mallat Scattering Transform-based autocorrelation methods to construct novel realizations of the individual pore geometries and surface roughness, then stochastically reconstruct them to form realizations of a porous printed part. The generated parts are compared to the existing experimental porosity distributions based on statistical and dimensional metrics, such as nearest neighbor distances, pore volumes, pore anisotropies and scattering transform based auto-correlations.},
+  url = {https://doi.org/10.1016/j.addma.2022.103250},
+  html = {https://www.sciencedirect.com/science/article/pii/S221486042200639X},
+  preview={deep_learned_generators/preview_image.png},
+  bibtex_show={true},
+  volume={60},
+  pages={103250},
+  year={2022},
+  publisher={Elsevier}
+}
+
+
+
+@article{ogoke2024inexpensive,
+  title={Inexpensive high fidelity melt pool models in additive manufacturing using generative deep diffusion},
+  author={Ogoke, Francis and Liu, Quanliang and Ajenifujah, Olabode and Myers, Alexander and Quirarte, Guadalupe and Malen, Jonathan and Beuth, Jack and Barati Farimani, Amir},
+  journal={Materials \& Design},
+  bibtex_show={True},
+  url={https://doi.org/10.1016/j.matdes.2024.113181},
+  html={https://www.sciencedirect.com/science/article/pii/S0264127524005562},
+  abstract={Defects in Laser Powder Bed Fusion (L-PBF) parts often result from the meso-scale dynamics of the molten alloy near the laser, known as the melt pool. Experimental in-situ monitoring of the three-dimensional melt pool physical fields is challenging, due to the short length and time scales involved in the process. Multi-physics simulation methods can describe the three-dimensional dynamics of the melt pool, but are computationally expensive at the mesh refinement required for accurate predictions of complex effects. Therefore, we develop a generative deep learning model based on the probabilistic diffusion framework to map low-fidelity simulation information to the high-fidelity counterpart. By doing so, we bypass the computational expense of conducting multiple high-fidelity simulations for analysis by upscaling lightweight coarse mesh simulations. We demonstrate the preservation of key metrics of the melting process between the ground truth simulation data and the diffusion model output, such as the temperature field, the melt pool dimensions and the variability of the keyhole vapor cavity. We predict the melt pool depth within 3 μm based on low-fidelity input data 4× coarser than the high-fidelity simulations, reducing analysis time by two orders of magnitude.},
+  volume={245},
+  pages={113181},
+  preview={super_resolution/preview_image.png},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{ogoke2024deepb,
+  title={Deep Learning based Optical Image Super-Resolution via Generative Diffusion Models for Layerwise in-situ LPBF Monitoring},
+  author={Ogoke, Francis and Suresh, Sumesh Kalambettu and Adamczyk, Jesse and Bolintineanu, Dan and Garland, Anthony and Heiden, Michael and Barati Farimani, Amir},
+  journal={arXiv preprint arXiv:2409.13171},
+  preview={experimental_insitu/preview.png},
+  arxiv={2409.13171},
+  bibtex_show={true},
+  abbr={Under Review},
+  abstract={The stochastic formation of defects during Laser Powder Bed Fusion (L-PBF) negatively impacts its adoption for high-precision use cases. Optical monitoring techniques can be used to identify defects based on layer-wise imaging, but these methods are difficult to scale to high resolutions due to cost and memory constraints. Therefore, we implement generative deep learning models to link low-cost, low-resolution images of the build plate to detailed high-resolution optical images of the build plate, enabling cost-efficient process monitoring. To do so, a conditional latent probabilistic diffusion model is trained to produce realistic high-resolution images of the build plate from low-resolution webcam images, recovering the distribution of small-scale features and surface roughness. We first evaluate the performance of the model by analyzing the reconstruction quality of the generated images using peak-signal-to-noise-ratio (PSNR), structural similarity index measure (SSIM) and wavelet covariance metrics that describe the preservation of high-frequency information. Additionally, we design a framework based upon the Segment Anything foundation model to recreate the 3D morphology of the printed part and analyze the surface roughness of the reconstructed samples. Finally, we explore the zero-shot generalization capabilities of the implemented framework to other part geometries by creating synthetic low-resolution data.},
+  year={2024}
+}
