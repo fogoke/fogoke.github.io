@@ -16,7 +16,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 I am broadly interested in exploring how **machine learning** can enhance the **monitoring, simulation, and control** of manufacturing and other engineering systems. From this intersection, three key research questions emerge that I intend to explore further:
 
 
-<img src="{{site.baseurl}}/assets/img/research_interests.png" alt="Research Interests Diagram" style="max-width: 100%; height: auto;">
+<img src="/assets/img/research_interests.png" alt="Research Interests Diagram" style="max-width: 100%; height: auto;">
 <!-- ![My Diagram]({{site.baseurl}}/assets/img/research_interests.png) -->
 
 
