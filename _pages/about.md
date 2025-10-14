@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Associate at MIT with the <a href='https://decode.mit.edu'> DeCoDE Lab</a> and <a href='https://mechanosynthesis.mit.edu'> Mechanosynthesis Group</a>.
+subtitle: Assistant Professor, Department of Mechanical Engineering, Carnegie Mellon University
 
 profile:
   align: right
