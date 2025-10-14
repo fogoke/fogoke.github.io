@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-forge-lab",
-          title: "FORGE Lab",
-          description: "Forecasting and Generation for Engineering",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/forge-lab/";
-          },
         },{id: "nav-research",
           title: "research",
           description: "",
